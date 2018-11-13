@@ -2,7 +2,7 @@
 
 *Purpose of the workshop:*
 
-##### To gain practical hands-on knowledge on how to set up Front end build environments that support automatic building of a variety of files and have hot in-place code updates to speed up development.
+#### To gain practical hands-on knowledge on how to set up Front end build environments that support automatic building of a variety of files and have hot in-place code updates to speed up development.
 
 ### Prerequisites:
 
@@ -61,7 +61,7 @@
 - Showing how to use npm scripts for building files with webpack
 - Building a bundle file, including it to html
 - Adding production build config
-	- Can use process.env.NODE_ENV === ‘production’ if Node env is set to prod in prod
+	- Can use process.env.NODE_ENV === "production" if Node env is set to prod in prod
 	- Or use separate webpack config and index html files
 	- Separate html file for clarity
 	- Setting mode to “production”
