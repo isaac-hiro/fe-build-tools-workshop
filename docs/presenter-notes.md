@@ -9,6 +9,22 @@
 - Latest Node version installed
 - Workshop repository pulled
 
+## Introduction
+#### SLIDES: Why to use build tools?
+
+- To use ES6 modules
+- To use latest Javascript features
+- To use TypeScript
+- To use Sass
+- To use polyfills for specific target browsers
+- To simplify, unify and automate build processes
+- To take advantage of production build optimizations
+- To speed up local development without the need to refresh the page and lose state
+- Dead asset elimination.
+	- You only build the images and CSS into your dist/ folder that your application actually needs.
+- Stable production deploys.
+	- You can't accidentally deploy code with images missing, or outdated styles.
+
 ## Webpack & Babel
 #### SLIDES: Introduction to Webpack
 
