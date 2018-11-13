@@ -1,32 +1,32 @@
-#Front-end build tools "All you need to know" workshop (Webpack, Gulp, Babel, TypeScript, Sass, Hot Module Replacement)
+# Front-end build tools "All you need to know" workshop (Webpack, Gulp, Babel, TypeScript, Sass, Hot Module Replacement)
 
 *Purpose of the workshop:*
-To gain practical hands-on knowledge on how to set up Front end build environments that support automatic building of a variety of files and have hot in-place code updates to speed up development.
 
-###Prerequisites:
+##### To gain practical hands-on knowledge on how to set up Front end build environments that support automatic building of a variety of files and have hot in-place code updates to speed up development.
 
-	* Latest Node version installed
-	* Workshop repository pulled
+### Prerequisites:
 
+- Latest Node version installed
+- Workshop repository pulled
 
-##Webpack & Babel
-####SLIDES: Introduction to Webpack
+## Webpack & Babel
+#### SLIDES: Introduction to Webpack
 
-	* What it is and what it can be used for
-	* Features
-	* Short comparsion table with other transpilers / builders
+= What it is and what it can be used for
+- Features
+- Short comparsion table with other transpilers / builders
 
-####SLIDES: Introduction to Babel
+#### SLIDES: Introduction to Babel
 
-	* What it is and what it can be used for
-	* Features
+- What it is and what it can be used for
+- Features
 
-####DEVELOPMENT: Setting up basic Webpack build environment for simple React project
+#### DEVELOPMENT: Setting up basic Webpack build environment for simple React project
 
-	* Setting up webpack config file
-	* Explaining some options https://webpack.js.org/configuration/ :
-		* entry - The point or points to enter the application. At this point the application starts executing. If an array is passed all items will be executed.
-			* The path.join() method joins all given path segments together using the platform specific separator as a delimiter, then normalizes the resulting path.
+- Setting up webpack config file
+- Explaining some options https://webpack.js.org/configuration/ :
+	- entry - The point or points to enter the application. At this point the application starts executing. If an array is passed all items will be executed.
+		- The path.join() method joins all given path segments together using the platform specific separator as a delimiter, then normalizes the resulting path.
 
 mode - "production" | "development" | "none" 
     Chosen mode tells webpack to use its built-in optimizations accordingly.
