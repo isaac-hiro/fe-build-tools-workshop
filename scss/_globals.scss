@@ -1,0 +1,22 @@
+// Colors
+$light-gray: #ddd;
+$orange: #fa7740;
+$blue: #3fa2ce;
+$white: #fff;
+
+// Paths
+$imgDir: '../img/';
+
+// Global styles
+html, body, #root {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 1em 0;
+}

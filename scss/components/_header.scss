@@ -1,0 +1,15 @@
+// @import '../globals';
+
+.header {
+    background: $orange;
+    color: $white;
+
+    &__logo {
+        width: 60px;
+        height: 60px;
+        // background: url($imgDir + 'webpack-logo.png') no-repeat center center;
+        background: url($imgDir + 'webpack-logo.svg') no-repeat center center;
+        background-size: contain;
+        display: inline-block;
+    }
+}

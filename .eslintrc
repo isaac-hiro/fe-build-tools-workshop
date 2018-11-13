@@ -1,0 +1,22 @@
+{
+    "parser": "babel-eslint",
+    "plugins": [
+        "react",
+        "babel",
+        "import"
+    ],
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "extends": "react",
+    "rules": {
+        "comma-dangle": "off",
+        "eol-last": "off",
+        "space-before-function-paren": ["error", {
+            "named": "never",
+            "anonymous": "ignore",
+            "asyncArrow": "ignore"
+        }],
+    },
+}

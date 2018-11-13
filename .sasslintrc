@@ -1,0 +1,20 @@
+
+{   
+    "files": {
+        "include": "scss/**/*.s+(a|c)ss",
+    },
+    "rules": {
+        "indentation": [2, {
+            "size": 4
+        }],
+        "property-sort-order": 0,
+        "final-newline": 0,
+        "no-important": 2,
+        "variable-name-format": 0,
+        "class-name-format": [2, {
+            "convention": "hyphenatedbem"
+        }],
+        "single-line-per-selector": 0,
+        "no-ids": 0
+    }
+}
