@@ -54,7 +54,7 @@ module.exports = {
     devServer: {
         contentBase: './build',
         hot: true,
-        port: 9000,
+        port: 9010,
         headers: {
             'Access-Control-Allow-Origin': '*'
         }
