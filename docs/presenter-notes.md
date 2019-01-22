@@ -154,9 +154,9 @@
 - Adding server config in webpack.config.js
 	- ContentBase - where served files sit
 	- Enabling hot option
-	- Adding header for CORS since http-server is running on 8080 port and WDS on 9000
+	- Adding header for CORS since http-server is running on 8080 port and WDS on 9010
 - Adding insertion config to app.js
-- Adding http://localhost:9000/bundle.dev.js to index.html
+- Adding http://localhost:9010/bundle.dev.js to index.html
 - Demonstrating changes in js/ts files
 - Adding HMR support for .scss files
 	- already present since style-loader uses it under the hood
