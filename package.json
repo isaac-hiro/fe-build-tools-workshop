@@ -47,15 +47,15 @@
         "webpack-dev-server": "^3.1.10"
     },
     "scripts": {
-        "dev": "./node_modules/.bin/webpack",
-        "prod": "./node_modules/.bin/webpack --config webpack.config.prod.js",
-        "hot": "./node_modules/.bin/webpack-dev-server",
-        "server": "./node_modules/.bin/http-server",
-        "gulp": "./node_modules/.bin/gulp",
-        "prod-server": "./node_modules/.bin/http-server build",
+        "dev": "webpack",
+        "prod": "webpack --config webpack.config.prod.js",
+        "hot": "webpack-dev-server",
+        "server": "http-server",
+        "gulp": "gulp",
+        "prod-server": "http-server build",
         "lint": "npm run eslint && npm run tslint && npm run sasslint",
-        "eslint": "./node_modules/.bin/eslint ./lib/**/*.{js,jsx}",
-        "tslint": "./node_modules/.bin/tslint ./lib/**/*.{ts,tsx}",
-        "sasslint": "./node_modules/.bin/sass-lint --config .sasslintrc --no-exit --verbose"
+        "eslint": "eslint ./lib/**/*.{js,jsx}",
+        "tslint": "tslint ./lib/**/*.{ts,tsx}",
+        "sasslint": "sass-lint --config .sasslintrc --no-exit --verbose"
     }
 }
